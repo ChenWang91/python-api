@@ -2,5 +2,8 @@
 from fioresult import fioresult
 
 if __name__ == "__main__":
-   f = fioresult.ResultApi("/home/wangchen/performance/test/4k/18.01/")
-   print f.check_results() 
+   f = fioresult.ResultApi("/home/wangchen/18.01/")
+   #print f.check_results() 
+   #print f.get_iops() 
+   #print f.get_latency() 
+   print f.get_p99() 
